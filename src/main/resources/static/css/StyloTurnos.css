@@ -1,0 +1,78 @@
+ /* Estilo del botón */
+ .camion {
+    width: 200px; /* Ancho del botón */
+    height: 100px; /* Alto del botón */
+    background-image: url('/icon/camion.jpg');  Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen al tamaño del botón */
+    background-position: center; /* Centra la imagen */
+    border: none; /* Elimina el borde */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+/* Efecto hover */
+.camion:hover {
+    opacity: 0.8; /* Reduce la opacidad al pasar el ratón */
+}
+
+ /* Estilo del botón */
+ .auto {
+    width: 200px; /* Ancho del botón */
+    height: 100px; /* Alto del botón */
+    background-image: url('/icon/auto.jpg'); Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen al tamaño del botón */
+    background-position: center; /* Centra la imagen */
+    border: none; /* Elimina el borde */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+/* Efecto hover */
+.auto:hover {
+    opacity: 0.8; /* Reduce la opacidad al pasar el ratón */
+}
+
+.moto {
+    width: 200px; /* Ancho del botón */
+    height: 100px; /* Alto del botón */
+    background-image: url('/icon/moto.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen al tamaño del botón */
+    background-position: center; /* Centra la imagen */
+    border: none; /* Elimina el borde */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+/* Efecto hover */
+.auto:hover {
+    opacity: 0.8; /* Reduce la opacidad al pasar el ratón */
+}
+
+
+.contenedor {
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
+    margin: 20px;
+}
+
+#nuevoDiv {
+    background-color: black;
+    color: white;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    transition: transform 0.5s ease-in-out, opacity 0.5s;
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+#nuevoDiv.visible {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.oculto {
+    display: none;
+}

@@ -1,0 +1,17 @@
+com\bmarket\cocheras\model\PrecioVehiculo.class
+com\bmarket\cocheras\repository\TurnoRepository.class
+com\bmarket\cocheras\controller\WebConfig.class
+com\bmarket\cocheras\ServletInitializer.class
+com\bmarket\cocheras\model\TipoVehiculoConPrecioDTO.class
+com\bmarket\cocheras\repository\TipoVehiculoRepository.class
+com\bmarket\cocheras\CocherasApplication.class
+com\bmarket\cocheras\service\TurnoService.class
+com\bmarket\cocheras\repository\PrecioVehiculoRepository.class
+com\bmarket\cocheras\controller\TipoVehiculoController.class
+com\bmarket\cocheras\model\TipoVehiculo.class
+com\bmarket\cocheras\model\Turno.class
+com\bmarket\cocheras\service\TipoVehiculoService.class
+com\bmarket\cocheras\controller\TestController.class
+com\bmarket\cocheras\controller\TurnoController.class
+com\bmarket\cocheras\controller\HomeController.class
+com\bmarket\cocheras\service\PrecioVehiculoService.class

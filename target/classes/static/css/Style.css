@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Color de fondo opcional */
+}
+
+.Botones {
+    text-align: center;
+}
+
+.Botones button {
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    padding: 20px 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Botones button:hover {
+    background-color: darkred;
+}
